@@ -1,0 +1,61 @@
+.main-bg {
+  background-image: url('../img/norway.jpg');
+  background-size: cover;
+  background-position: center center;
+  color:#000;
+  background-attachment: fixed;
+}
+
+.white-bg {
+  background:#283040;
+  color: #fff;
+}
+
+#home .main-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.bg-img {
+  background-image: url('../img/boreal.jpg');
+  color:#fff;
+}
+
+.bg-img2 {
+  background-image: url('../img/sea.jpg');
+}
+
+.bg-img2 p {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.bg-img2 h2 {
+  margin-bottom: 4rem;
+}
+
+.bg-img3 {
+  background-image: url('../img/city.jpg');
+}
+
+
+.main-content {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 10rem var(--gap);
+}
+
+.section {
+  min-height: 100vh;
+}
+
+.menu-spacing {
+  height: 65px;
+}
+
+body .full-width {
+  width: 100%;
+  flex: 1 1 100%;
+}
