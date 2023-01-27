@@ -49,18 +49,18 @@ a {
   position: relative;
 }
 
-a::after {
+#header a::after {
   content: " ";
   width: 0%;
   height: 3px;
-  background-color:#164567;
+  background-image: linear-gradient(to right, #4395ff, #fffb12, #f00808);
   position: absolute;
   bottom: 0;
   left: 0;
   transition: 0.6s ease-in-out;
 }
 
-a:hover::after {
+#header a:hover::after {
   width: 100%;
 }
 
